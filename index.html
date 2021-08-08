@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+
+    <!-- Custom css file -->
+    <link rel="stylesheet" href="style.css">
+
+     <!-- Custom JS file -->
+    <script src="script.js"></script>
+
+    <!-- Bootstrap  file -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body>
+    <main>
+        <div class="about-section ">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-8  name">
+                        <h1>kajal Rajput</h1>
+
+                    </div>
+                    <div class="col-sm-4 ">
+                        <img src="./photo.jpg" alt="">
+                </div>
+            </div>
+
+                <div class=" name">
+                        <h2>Career Objective:</h2>
+                        <p>One Day I will be in a Position and at a Place where I always wanted to be. 
+			Currently looking for the Place and Position to make my Success with the mutual growth and happiness for me and opportunity given achiever.</p>
+
+                        <h2>Experience Summary:</h2>
+                        <p> I have 3+ years experience in DBA field. I have worked on all the database including mssql, oracel, sybase, Db2, postresql servers. 
+			I have also worked on the SQLGUARD work which covers the AUDITING part of the servers. </p>
+			<br>Have worked on below areas:- 
+
+                            <ul>
+                                <li>OEM</li>
+                                <li>BMC Monitoring</li>
+                                <li>SCOM Monitoring</li>
+                                <li>Database servers</li>
+                                <li>Quality check</li>
+				<li>SQLGUARD
+					<ul>
+						<li>-->ATAP acivation</li>
+                                		<li>-->KTAP</li>
+                                		<li>-->KRI exception</li>
+                                		<li>-->HB items</li>
+                                		<li>-->Changes implementation</li>
+					</ul>
+				</li>
+                            </ul>
+
+                        <h2>Skillset:</h2>
+                        <p>
+				<ul>
+					<li>DATABASE Servers ( 3+ years)</li>
+                                	<li>SQLGUARD (1+ year)</li>
+                                	<li>Monitoring - OEM, BMC, SCOM ( 1+ year)</li>
+                                	<li>Java</li>
+                                	<li>C++</li>
+				</ul>
+			</p>
+
+                        <h2>Responsibility Handled:</h2>
+                        <p>I am responsible to make sure that all the mandatory checkpoint should be completed before succeeding the server in DATA SERVER PAGE this includes the Quality check.  
+				<br>Also responsible to complete the SQLGUARD task in between the change window.</p>
+
+                        <h2>Academic / Educational Summary:</h2>
+                        <p>
+				<ul>
+					<li>B.SC computer science (hons)  - 8.6 CGPA  From DELHI UNIVERSITY </li>
+                                	<li>12th  - 90.6%  from CBSE Board</li>
+                                	<li>10th - 9.6 CGPA  from CBSE Board </li>
+				</ul>
+			</p>
+
+                        <h2>Achievments:</h2>
+			<p>				
+				<ul>
+					<li>Joint secretary of the TECH fest at college level </li>
+                                	<li>Head girl of the school</li>
+                                	<li>Received many medals in college and school for both academic and sports</li>
+				</ul>
+			</p>
+
+                        <h2>Personal Details:</h2>
+                        <p>
+				<ul>
+					<li>Name: kajal</li>
+                                	<li>Father's name : Rajesh</li>
+                                	<li>Address: Shahdara, delhi</li>
+					<li>Contact no : 8076305570</li>
+				</ul>
+			</p>
+
+                    </div>
+
+                    <!-- Contact Form -->
+
+                    <h1 class="text-center contactMe  pb-3">Contact Me</h1>
+                    <div id="error_message">
+
+                    </div>
+                    <form class="contact" id="myform" onsubmit="return validate();" >
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" id="txtName" class="form-control" placeholder="Your Name *"
+                                        value="" />
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" id="txtAddress" class="form-control" placeholder="Address *"
+                                        value="" />
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" id="txtEmail" class="form-control" placeholder="Your Email *"
+                                        value="" />
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" id="txtPhone" class="form-control"
+                                        placeholder="Your Phone Number *" value="" />
+                                </div>
+                                
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <textarea id="txtMsg" class="form-control" placeholder="Your Message *"
+                                        style="width: 100%; height: 200px;"></textarea>
+                                </div>
+                            </div>
+                            <div class="form-group  m-auto pb-4 ">
+                                <input type="submit" name="btnSubmit" class="btnContact" value="Send Message" />
+                            </div>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+    </main>
+
+    <!-- Bootstrap js file -->
+    <script src=" https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
